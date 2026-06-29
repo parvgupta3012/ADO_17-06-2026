@@ -6,7 +6,7 @@ terraform {
         }
     }
     backend "azurerm" {
-        resource_group_name = "remote-rg_parveen"
+        resource_group_name = "parveen-rg1"
         storage_account_name = "remotestoraccparveen"
         container_name = "remote-conatiner-parveen"
         key             = "parveen.tfstate"  
